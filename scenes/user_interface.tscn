@@ -1,0 +1,52 @@
+[gd_scene load_steps=2 format=3 uid="uid://cidwvfoh7142d"]
+
+[ext_resource type="Script" path="res://scripts/user_interface.gd" id="1_lve5c"]
+
+[node name="user_interface" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lve5c")
+
+[node name="MenuBar" type="MenuBar" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -20.0
+offset_right = 240.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 25
+
+[node name="Popup00" type="PopupMenu" parent="MenuBar"]
+
+[node name="Popup01" type="PopupMenu" parent="MenuBar"]
+size = Vector2i(131, 100)
+
+[node name="Popup02" type="PopupMenu" parent="MenuBar"]
+
+[node name="Popup03" type="PopupMenu" parent="MenuBar"]
+
+[node name="Popup04" type="PopupMenu" parent="MenuBar"]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -512.0
+offset_top = -91.0
+offset_right = 512.0
+offset_bottom = -19.0
+grow_horizontal = 2
+grow_vertical = 0

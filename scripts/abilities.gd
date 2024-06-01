@@ -20,5 +20,19 @@ func populateAbilities():
 			"Damage": "10",
 			"Targets": "1", 
 			"Accuracy": "80"
+			},
+		"FireBall": {
+			"Name": "Fireball",
+			"Level": "2",
+			"Damage": "50",
+			"Targets": "5", 
+			"Accuracy": "70"
+			},
+			"Disintegrate": {
+			"Name": "Disintegrate",
+			"Level": "4",
+			"Damage": "80",
+			"Targets": "1", 
+			"Accuracy": "90"
 			}
 		}
